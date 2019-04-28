@@ -6,6 +6,6 @@ def my_select(collection)
    select << yield(collection[i])
     end
     i += 1
-  end   
+  end
  select
 end
